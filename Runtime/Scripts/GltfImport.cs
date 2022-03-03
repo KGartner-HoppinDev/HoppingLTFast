@@ -2886,6 +2886,7 @@ namespace GLTFast {
                 case "jpeg":
                     return ImageFormat.Jpeg;
                 case "png":
+                case "*":
                     return ImageFormat.PNG;
                 case "ktx":
                 case "ktx2":
